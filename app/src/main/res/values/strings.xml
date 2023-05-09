@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">calculadoraPropinas</string>
+    <string name="monto_cuenta">Monto de la cuenta:</string>
+    <string name="porcentaje_propina">Porcentaje de la propina:</string>
+    <string name="total_pagar">Total a pagar:</string>
+    <string name="calcular_propina">Calcular Propina</string>
+</resources>

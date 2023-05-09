@@ -1,0 +1,44 @@
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:id="@+id/tv_monto_cuenta"
+        android:text="@string/monto_cuenta"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText android:id="@+id/et_monto_cuenta"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/tv_porcentaje_propina"
+        android:text="@string/porcentaje_propina"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner android:id="@+id/sp_porcentaje_propina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/porcentajes_propina"/>
+
+    <Button android:id="@+id/btn_calcular_propina"
+        android:text="@string/calcular_propina"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/tv_total_pagar"
+        android:text="@string/total_pagar"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
