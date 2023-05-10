@@ -6,6 +6,7 @@ public class CalculadoraPropinas {
 
     public void setMontoCuenta(double montoCuenta) {
         this.montoCuenta = montoCuenta;
+
     }
     public void setPorcentajePropina(double porcentajePropina) {
         this.porcentajePropina = porcentajePropina;

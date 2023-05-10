@@ -10,10 +10,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <EditText android:id="@+id/et_monto_cuenta"
-        android:inputType="numberDecimal"
+    <EditText
+        android:id="@+id/et_monto_cuenta"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:hint="@string/monto_cuenta"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
 
     <TextView android:id="@+id/tv_porcentaje_propina"
         android:text="@string/porcentaje_propina"
@@ -22,10 +25,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <Spinner android:id="@+id/sp_porcentaje_propina"
+    <Spinner
+        android:id="@+id/sp_porcentaje_propina"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/porcentajes_propina"/>
+        android:entries="@array/porcentajes_propina"
+        android:minHeight="48dp" />
 
     <Button android:id="@+id/btn_calcular_propina"
         android:text="@string/calcular_propina"

@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 double montoCuenta = Double.parseDouble(etMontoCuenta.getText().toString());
                 double porcentajePropina = Double.parseDouble(spPorcentajePropina.getSelectedItem().toString());
-                Double.parseDouble(spPorcentajePropina.getSelectedItem().toString());
 
                 calculadoraPropinas.setMontoCuenta(montoCuenta);
                 calculadoraPropinas.setPorcentajePropina(porcentajePropina);
