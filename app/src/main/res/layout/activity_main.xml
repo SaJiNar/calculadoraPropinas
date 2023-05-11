@@ -14,7 +14,8 @@
         android:id="@+id/et_monto_cuenta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/monto_cuenta"
+        android:hint="Escribe aqui:"
+        android:textSize="18dp"
         android:inputType="numberDecimal"
         android:minHeight="48dp" />
 
